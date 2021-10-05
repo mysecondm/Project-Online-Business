@@ -1,67 +1,13 @@
 * {
-  background-color: rgb(235, 234, 234);
-  padding: 0;
-  margin: 0;
-}
-/* body {
-  background-color: rgb(111, 107, 160);
-} */
-.menu {
-  background-color: rgb(161, 197, 166);
-}
-.menu li {
-  float: left;
-  list-style-type: none;
-  padding: 20px;
-}
-h2 {
-  color: coral;
-}
-img {
-  width: 1000px;
-  height: 750px;
-  border-radius: 15px;
+  /* padding: 0;
+  margin: 0; */
+  background-color: rgb(228, 173, 173);
 }
 a {
   text-decoration: none;
+  
 }
-div ul li {
-  color: rgb(119, 132, 243);
-}
-input {
-  background-color: rgb(165, 247, 236);
-  border: rgb(214, 190, 236) 1px solid;
-  border-radius: 15px;
-  padding: 10px;
-}
-textarea {
-  background-color: rgb(212, 235, 209);
-  border-radius: 15px;
-}
-select {
-  width: 200px;
-  height: 30px;
-  border: tan 1px solid;
-  padding: 10px 10px;
-  border-radius: 15px;
-}
-option {
-  height: 10px;
-  background-color: rgba(202, 172, 218, 0.3);
-  border-radius: 15px;
-  padding: 10px;
-}
-/* file 6 video */
-table,
-tr,
-td {
-  border: rgb(217, 247, 211) 1px solid;
-  border-collapse: collapse;
-}
-tr:first-child {
-  background-color: cornflowerblue;
-}
-table,
-tr:hover {
-  background-color: rgb(194, 129, 129);
+ul {
+  display: inline-block;
+  list-style-type: none;
 }
