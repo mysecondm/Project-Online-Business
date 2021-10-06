@@ -11,3 +11,6 @@ ul {
   display: inline-block;
   list-style-type: none;
 }
+hr {
+  border-width: 20px;
+}
