@@ -1,6 +1,45 @@
 body {
   background-color: rgb(111, 107, 160);
 }
-h2{
-    color: coral;
+.Iran-Map {
+  width: 600px;
+  height: 500px;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(181, 178, 178);
+}
+table,
+tr :hover {
+  background-color: #fff;
+}
+input {
+  background-color: rgb(184, 191, 182);
+  width: 300px;
+  height: 40px;
+  border: 2px solid rgb(4, 93, 209);
+  border-radius: 15px;
+  line-height: 20px;
+  font-size: 20px;
+}
+input:hover {
+  border:2px solid rgb(83, 231, 241);
+}
+#btn:hover {
+  background-color: rgb(237, 173, 173);
+}
+.select :hover {
+  background-color: rgb(230, 117, 117);
+}
+.doost {
+  border-radius: 50px;
+}
+.hero {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
 }

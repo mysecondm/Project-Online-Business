@@ -1,52 +1,139 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <title>Online Bussiness</title>
-  </head>
-  <body>
-    <header>
-      <ul>
-        <li><a href="#">asad</a></li>
-        <li><a href="#">asad</a></li>
-        <li><a href="#">asad</a></li>
-        <li><a href="#">asad</a></li>
-        <li><a href="#">asad</a></li>
-        <li><a href="#">asad</a></li>
-      </ul>
-      <hr />
-      <ol type="I" start="">
-        <li>asad</li>
-        <li>asad</li>
-        <li>asad</li>
-        <li>asad</li>
-        <li>asad</li>
-      </ol>
-      <dl>
-        <dt>asad</dt>
-        <dd>doost</dd>
-        <dt>asad</dt>
-        <dd>doost</dd>
-      </dl>
-    </header>
-      <img src="image/Iran-Map1.png" width="400" height="400" alt="Iran-map" title="Iran-map" usemap="#Iran-map">
-      <map name="Iran-map"></map>
-      <area shape="circle" coords="200,200,200" href="https://google.com" alt="">
-        <picture>
-        <source srcset="image/Iran-Map1.png" media="(min-width:700px)" style="width: 400px height: 400px">
-        <source srcset="image/road.jpg" media="(min-width:400px)">
-        <img src="" alt="">
-        </picture>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <h1>asad</h1>
-        <p>asad</p>
-        <h1>asad</h1>
-  </body>
-<hr/>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online-Business</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <dl>
+    <dt>asad</dt>
+    <dd>doost</dd>
+  </dl>
+  
+  <p>asad&zwnj;doo</p>
+  <img class="Iran-Map" src="image/Iran-Map1.png" alt="Iran-map" usemap="#Iran-Map">
+  <map name="Iran-Map">
+    <area shape="circle" coords="200,200,200" href="https://google.com" alt="">
+    <picture>
+      <source srcset="image/road.jpg" media="(min-width:700px)" width="500px" type="image/webp">
+      <source srcset="image/Iran-Map1.png" media="(min-width:400px)" width="500px">
+      <source srcset="" sizes="" media="(min-width:500px)and(oriantation:portrait)">
+      <img src="" alt="">
+
+    </picture>
+    <hr>
+    <table>
+      <colgroup>
+        <col style="background-color:green;">
+        <col span="1" style="background-color: red;">
+      </colgroup>
+      <caption> details from my family</caption>
+      <thead>
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Family</th>
+        <th>Work</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>asad</td>
+        <td>doost</td>
+        <td>programmer</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td rowspan="2">vahid</td>
+        <td>doost</td>
+        <td>sale man</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>saeed</td>
+        <td>doost</td>
+        <td>sale man</td>
+        <td>35</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>jaber</td>
+        <td>doost</td>
+        <td>teacher</td>
+        <td>27</td>
+      </tr>
+    </tfoot>
+    </table>
+    <hr>
+    <hr>
+    <br>
+    <form action="#">
+      <label for="text">Name:</label><br>
+      <input type="text" placeholder="asad" required><br>
+      <label for="text">Family:</label><br>
+      <input type="text" placeholder="Doost"><br>
+      <label for="password">password:</label><br>
+      <input type="password" maxlength="5" pattern="asad1"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" placeholder="info@payrad.org"><br>
+      <label for="phone">Phone:</label><br>
+      <input type="tel" disabled><br>
+      <label for="Birthday">Birthday:</label><br>
+      <input type="date"><br>
+      <button type="submit">Send</button><br>
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox">
+      <input type="checkbox"><br>
+      <label for="gender">Male:</label>
+      <input type="radio" value="name" name="select" checked><br>
+      <label for="gender">Famel:</label>
+      <input type="radio" value="name" name="select"><br>
+      <label for="Color">Color:</label><br>
+      <input type="color"><br>
+      <label for="file">Upload Resume:</label><br>
+      <input type="file" value="upload"><br>
+      <label for="age">Age:</label><br>
+      <input type="number" max="40" min="20"><br>
+      <label for="Payment">Payment Range:</label><br>
+      <input type="range" min="200" max="1000"><br>
+      <label for="search">search</label><br>
+      <input type="search" autofocus><br>
+      <input type="time"><br>
+      <input type="week"><br>
+      <input type="url"><br>
+      <input type="submit" value="send" id="btn">
+      <input type="img">
+      <input type="reset">
+      <input type="datetime-local"/><br>
+      <label for="progress">HTML</label>
+      <progress max="100" value="50"></progress><br>
+      <label for="progress">CSS</label><br>
+      <progress max="100" value="25"></progress><br>
+      <label for="progress">Javascript</label><br>
+      <progress max="100" value="70"></progress>
+      <label for="Favorite cities">Favorite cities:</label><br>
+      <select   name="" id="select">
+        <option id="select" value="Amsterdam">Amsterdam</option>
+        <option value="estokholm" selected>estokholm</option>
+        <option value="Oslo">Oslo<option>
+        <option value="Berlin" disabled>Berlin</option>
+      </select>
+      <hr>
+      <input list="asad">
+      <datalist id="asad">
+        <option value="asad" >
+        <option value="asad" >
+        <option value="asad" >
+        <option value="asad" >
+        <option value="asad" >
+      </datalist>
+    </form>
+    <hr>
+    <video class="hero" controls poster="image/road.jpg" preload="metadata">
+      <source src="/Video/people.mp4" type="video/mp4">
+    </video>
 </html>
