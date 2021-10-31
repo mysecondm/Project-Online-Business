@@ -24,7 +24,7 @@ input {
   border: 2px solid rgb(4, 93, 209);
   border-radius: 15px;
   line-height: 20px;
-  font-size: 20px;
+  
 }
 input:hover {
   border:2px solid rgb(83, 231, 241);
