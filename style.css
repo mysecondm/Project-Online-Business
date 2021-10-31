@@ -23,7 +23,7 @@ input {
   height: 40px;
   border: 2px solid rgb(4, 93, 209);
   border-radius: 15px;
-  line-height: 20px;
+  line-height: 30px;
   
 }
 input:hover {
