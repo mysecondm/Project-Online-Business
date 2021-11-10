@@ -3,10 +3,7 @@
   margin: 0; */
   background-color: rgb(228, 173, 173);
 }
-a {
-  text-decoration: none;
-  
-}
+
 ul {
   display: inline-block;
   list-style-type: none;
